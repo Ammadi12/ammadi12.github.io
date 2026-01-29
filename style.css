@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    color: #111;
+    text-align: center;
+}
+
+header, footer {
+    padding: 1em;
+}
+
+#projects {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    margin: 2em 0;
+}
+
+.project-card img {
+    width: 200px;
+    height: auto;
+    border-radius: 4px;
+}
+
+.project-card p {
+    margin: 0.5em 0;
+    font-weight: bold;
+}
